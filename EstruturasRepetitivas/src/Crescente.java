@@ -8,7 +8,7 @@ public class Crescente {
 
         int num1, num2;
         do {
-            System.out.print("Digite dois números: ");
+            System.out.println("Digite dois números: ");
             num1 = scanner.nextInt();
             num2 = scanner.nextInt();
             if (num1 != num2) {
