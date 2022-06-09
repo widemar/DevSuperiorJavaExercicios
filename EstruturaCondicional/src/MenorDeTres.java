@@ -15,12 +15,7 @@ public class MenorDeTres {
         System.out.print("Terceiro valor: ");
         int valor3 = scanner.nextInt();
 
-        int menor;
-        if (valor1 < valor2 && valor1 < valor3) {
-            menor = valor1;
-        } else {
-            menor = Math.min(valor2, valor3);
-        }
+        int menor = valor1 < valor2 && valor1 < valor3 ? valor1 : Math.min(valor2, valor3);
 
         System.out.printf("Menor = %d", menor);
 
