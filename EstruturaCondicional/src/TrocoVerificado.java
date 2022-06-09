@@ -23,7 +23,6 @@ public class TrocoVerificado {
 
         System.out.println(troco);
 
-
         scanner.close();
     }
 }
