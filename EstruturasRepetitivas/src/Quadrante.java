@@ -5,8 +5,8 @@ public class Quadrante {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
-        boolean coordenadaValida = true;
 
+        boolean coordenadaValida = true;
         while (coordenadaValida) {
             System.out.println("Digite os valores das coordenas X e Y: ");
             int x = scanner.nextInt();
