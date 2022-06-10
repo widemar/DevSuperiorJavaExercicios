@@ -12,5 +12,7 @@ public class Tabuada {
         for (int i = 1; i <= 10; i++) {
             System.out.printf("%d x %d = %d\n", valor, i, valor * i);
         }
+
+        scanner.close();
     }
 }
