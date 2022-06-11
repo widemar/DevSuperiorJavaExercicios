@@ -19,5 +19,7 @@ public class Programa {
         double total = ConversorDeMoeda.converter(valorDolar, qtdDeDolares);
 
         System.out.printf("Valor a ser pago em reais = %.2f", total);
+
+        scanner.close();
     }
 }
