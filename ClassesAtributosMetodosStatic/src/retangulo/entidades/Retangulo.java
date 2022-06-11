@@ -1,27 +1,11 @@
 package retangulo.entidades;
 
 public class Retangulo {
-    private Double largura;
-    private Double altura;
+    private final Double largura;
+    private final Double altura;
 
     public Retangulo(Double largura, Double altura) {
         this.largura = largura;
-        this.altura = altura;
-    }
-
-    public Double getLargura() {
-        return largura;
-    }
-
-    public void setLargura(Double largura) {
-        this.largura = largura;
-    }
-
-    public Double getAltura() {
-        return altura;
-    }
-
-    public void setAltura(Double altura) {
         this.altura = altura;
     }
 
