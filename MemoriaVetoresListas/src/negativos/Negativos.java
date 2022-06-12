@@ -15,8 +15,7 @@ public class Negativos {
 
         for (int i = 0; i < vetorNegativo.length; i++) {
             System.out.print("Digite um número: ");
-            int num = scanner.nextInt();
-            vetorNegativo[i] = num;
+            vetorNegativo[i] = scanner.nextInt();
         }
 
         System.out.println("Números negativos:");
