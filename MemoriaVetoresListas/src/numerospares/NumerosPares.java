@@ -13,7 +13,7 @@ public class NumerosPares {
 
         int[] vetor = new int[qtdDeNumeros];
 
-        for (int i = 0; i < qtdDeNumeros; i++) {
+        for (int i = 0; i < vetor.length; i++) {
             System.out.print("Digite um número: ");
             vetor[i] = scanner.nextInt();
         }
