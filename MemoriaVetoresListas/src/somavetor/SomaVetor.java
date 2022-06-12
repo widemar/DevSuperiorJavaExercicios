@@ -15,8 +15,7 @@ public class SomaVetor {
 
         for (int i = 0; i < vetor.length; i++) {
             System.out.print("Digite um número: ");
-            double num = scanner.nextDouble();
-            vetor[i] = num;
+            vetor[i] = scanner.nextDouble();
         }
 
         double soma = 0;
