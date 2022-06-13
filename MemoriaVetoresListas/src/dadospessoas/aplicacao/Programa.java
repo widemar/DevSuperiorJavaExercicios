@@ -22,7 +22,11 @@ public class Programa {
             double altura = scanner.nextDouble();
             System.out.printf("Sexo da %d° pessoa: ", i);
             char sexo = scanner.next().toLowerCase().charAt(0);
-
+            while (sexo != 'f' && sexo != 'm') {
+                System.out.println("Sexo Inválido.");
+                System.out.printf("Sexo da %d° pessoa: ", i);
+                sexo = scanner.next().toLowerCase().charAt(0);
+            }
             pessoas.add(new Pessoa(altura, sexo));
         }
 
