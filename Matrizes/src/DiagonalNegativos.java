@@ -18,12 +18,11 @@ public class DiagonalNegativos {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
                 System.out.printf("Elemento [%d,%d]: ", i, j);
-                int num = scanner.nextInt();
-                matriz[i][j] = num;
+                matriz[i][j] = scanner.nextInt();
                 if (i == j) {
-                    diagonaisPrincipais.add(num);
+                    diagonaisPrincipais.add(matriz[i][j]);
                 }
-                if (num < 0) {
+                if (matriz[i][j] < 0) {
                     contaNegativos++;
                 }
             }

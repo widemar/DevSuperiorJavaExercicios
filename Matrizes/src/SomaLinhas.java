@@ -17,8 +17,7 @@ public class SomaLinhas {
         for (int i = 0; i < matriz.length; i++) {
             System.out.printf("Digite os elementos da %d° linha:\n", i + 1);
             for (int j = 0; j < matriz[i].length; j++) {
-                double num = scanner.nextDouble();
-                matriz[i][j] = num;
+                matriz[i][j] = scanner.nextDouble();
             }
         }
 
