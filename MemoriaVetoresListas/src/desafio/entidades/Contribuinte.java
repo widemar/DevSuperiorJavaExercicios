@@ -50,7 +50,7 @@ public class Contribuinte {
     }
 
     public double taxaDeServico() {
-            return rendaComServico * 0.15;
+        return rendaComServico * 0.15;
     }
 
     public double impostaDeCapital() {
