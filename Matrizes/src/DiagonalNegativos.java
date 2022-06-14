@@ -19,6 +19,7 @@ public class DiagonalNegativos {
             for (int j = 0; j < matriz[i].length; j++) {
                 System.out.printf("Elemento [%d,%d]: ", i, j);
                 int num = scanner.nextInt();
+                matriz[i][j] = num;
                 if (i == j) {
                     diagonaisPrincipais.add(num);
                 }
