@@ -1,7 +1,40 @@
 package desafio.entidades;
 
-public record Contribuinte(Double rendaComSalario, Double rendaComServico, Double rendaComCapital, Double gastosMedicos,
-                           Double gastosEducacionais) {
+public class Contribuinte {
+    private final Double rendaComSalario;
+    private final Double rendaComServico;
+    private final Double rendaComCapital;
+    private final Double gastosMedicos;
+    private final Double gastosEducacionais;
+
+    public Contribuinte(Double rendaComSalario, Double rendaComServico,
+                        Double rendaComCapital, Double gastosMedicos, Double gastosEducacionais) {
+        this.rendaComSalario = rendaComSalario;
+        this.rendaComServico = rendaComServico;
+        this.rendaComCapital = rendaComCapital;
+        this.gastosMedicos = gastosMedicos;
+        this.gastosEducacionais = gastosEducacionais;
+    }
+
+    public Double getRendaComSalario() {
+        return rendaComSalario;
+    }
+
+    public Double getRendaComServico() {
+        return rendaComServico;
+    }
+
+    public Double getRendaComCapital() {
+        return rendaComCapital;
+    }
+
+    public Double getGastosMedicos() {
+        return gastosMedicos;
+    }
+
+    public Double getGastosEducacionais() {
+        return gastosEducacionais;
+    }
 
     public double impostoSalarial() {
         double imposto;
@@ -17,7 +50,7 @@ public record Contribuinte(Double rendaComSalario, Double rendaComServico, Doubl
     }
 
     public double taxaDeServico() {
-        return rendaComServico * 0.15;
+            return rendaComServico * 0.15;
     }
 
     public double impostaDeCapital() {
