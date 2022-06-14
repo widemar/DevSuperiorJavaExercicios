@@ -22,7 +22,7 @@ public class Lanchonete {
             default -> System.out.println("Código inválido");
         }
 
-        System.out.printf("Valor a pagar: R$%.2f",total);
+        System.out.printf("Valor a pagar: R$%.2f", total);
 
         scanner.close();
     }

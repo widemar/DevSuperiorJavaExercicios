@@ -10,7 +10,7 @@ public class Multiplos {
         int num1 = scanner.nextInt();
         int num2 = scanner.nextInt();
 
-        String mensagem = num1 % num2 == 0 || num2 % num1 == 0 ?  "São múltiplos" : "Não são múltiplos";
+        String mensagem = num1 % num2 == 0 || num2 % num1 == 0 ? "São múltiplos" : "Não são múltiplos";
 
         System.out.println(mensagem);
 

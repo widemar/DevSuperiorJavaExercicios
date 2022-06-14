@@ -16,10 +16,10 @@ public class Baskara {
         double c = scanner.nextDouble();
 
         double delta = (Math.pow(b, 2.0) - (4 * a * c));
-        double x1 = (-b + Math.sqrt(delta)) /  (2 * a);
-        double x2 = (-b - Math.sqrt(delta)) /  (2 * a);
+        double x1 = (-b + Math.sqrt(delta)) / (2 * a);
+        double x2 = (-b - Math.sqrt(delta)) / (2 * a);
 
-        if (delta < 0){
+        if (delta < 0) {
             System.out.println("Esta equação não possui raízes reais");
         } else {
             System.out.printf("X1 = %.4f\n", x1);

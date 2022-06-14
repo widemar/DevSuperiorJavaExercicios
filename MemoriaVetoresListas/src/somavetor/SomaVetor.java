@@ -27,7 +27,7 @@ public class SomaVetor {
         double media = soma / vetor.length;
         System.out.printf("\nSoma = %.2f\n", soma);
         System.out.printf("Média = %.2f\n", media);
-        
+
         scanner.close();
     }
 }

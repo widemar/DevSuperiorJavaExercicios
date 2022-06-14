@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Aluno {
-    private String nome;
     private final List<Double> notas;
+    private String nome;
 
     public Aluno(String nome) {
         this.nome = nome;

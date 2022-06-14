@@ -2,9 +2,9 @@ package desafio.entidades;
 
 public class Campeao {
     private final String nome;
-    private Integer vida;
     private final Integer ataque;
     private final Integer armadura;
+    private Integer vida;
 
     public Campeao(String nome, Integer vida, Integer ataque, Integer armadura) {
         this.nome = nome;

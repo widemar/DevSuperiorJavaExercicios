@@ -2,8 +2,8 @@ package funcionarios.entidades;
 
 public class Funcionario {
     private final String nome;
-    private Double salarioBruto;
     private final Double imposto;
+    private Double salarioBruto;
 
     public Funcionario(String nome, Double salarioBruto, Double imposto) {
         this.nome = nome;

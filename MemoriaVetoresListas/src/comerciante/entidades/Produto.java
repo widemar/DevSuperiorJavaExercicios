@@ -14,31 +14,6 @@ public class Produto {
         this.precoDaVenda = precoDaVenda;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public Double getPrecoDaCompra() {
-        return precoDaCompra;
-    }
-
-    public void setPrecoDaCompra(Double precoDaCompra) {
-        this.precoDaCompra = precoDaCompra;
-    }
-
-    public Double getPrecoDaVenda() {
-        return precoDaVenda;
-    }
-
-    public void setPrecoDaVenda(Double precoDaVenda) {
-        this.precoDaVenda = precoDaVenda;
-    }
-
-
     public static double valorTotalDaCompra(List<Produto> produtos) {
         double somaCompra = 0.0;
         for (Produto produto : produtos) {
@@ -66,5 +41,29 @@ public class Produto {
             listaPorcentagemDeLucros.add(porcentagemDeLucros);
         }
         return listaPorcentagemDeLucros;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Double getPrecoDaCompra() {
+        return precoDaCompra;
+    }
+
+    public void setPrecoDaCompra(Double precoDaCompra) {
+        this.precoDaCompra = precoDaCompra;
+    }
+
+    public Double getPrecoDaVenda() {
+        return precoDaVenda;
+    }
+
+    public void setPrecoDaVenda(Double precoDaVenda) {
+        this.precoDaVenda = precoDaVenda;
     }
 }
