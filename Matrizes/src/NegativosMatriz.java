@@ -22,9 +22,9 @@ public class NegativosMatriz {
 
         System.out.println("Valores Negativos:");
         for (int[] linhas : matriz) {
-            for (int colunas : linhas) {
-                if (colunas < 0) {
-                    System.out.println(colunas);
+            for (int item : linhas) {
+                if (item < 0) {
+                    System.out.println(item);
                 }
             }
         }
