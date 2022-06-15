@@ -1,4 +1,4 @@
-package exercicio.entidades;
+package exercicio1.entidades;
 
 public class ItemDoPedido {
     private Integer quantidade;

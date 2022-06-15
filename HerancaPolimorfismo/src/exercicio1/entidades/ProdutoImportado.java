@@ -1,4 +1,4 @@
-package exercicio.entidades;
+package exercicio1.entidades;
 
 public class ProdutoImportado extends Produto {
     private Double taxaAlfandegaria;

@@ -1,4 +1,4 @@
-package exercicio.entidades.enums;
+package exercicio1.entidades.enums;
 
 public enum StatusDoPedido {
     PAGAMENTO_PENDENTE,

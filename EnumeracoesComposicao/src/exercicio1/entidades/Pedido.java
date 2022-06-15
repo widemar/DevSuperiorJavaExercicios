@@ -1,6 +1,6 @@
-package exercicio.entidades;
+package exercicio1.entidades;
 
-import exercicio.entidades.enums.StatusDoPedido;
+import exercicio1.entidades.enums.StatusDoPedido;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
