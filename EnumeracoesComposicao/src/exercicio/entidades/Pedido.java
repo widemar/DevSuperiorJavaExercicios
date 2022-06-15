@@ -9,10 +9,10 @@ import java.util.List;
 
 public class Pedido {
     private final static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+    private final List<ItemDoPedido> itemsDoPedido;
     private LocalDateTime momento;
     private StatusDoPedido statusDoPedido;
     private Cliente cliente;
-    private final List<ItemDoPedido> itemsDoPedido;
 
     public Pedido(LocalDateTime momento, StatusDoPedido statusDoPedido, Cliente cliente) {
         this.momento = momento;
