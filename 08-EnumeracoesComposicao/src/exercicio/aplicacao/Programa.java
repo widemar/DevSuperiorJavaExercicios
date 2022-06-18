@@ -1,10 +1,10 @@
-package exercicio1.aplicacao;
+package exercicio.aplicacao;
 
-import exercicio1.entidades.Cliente;
-import exercicio1.entidades.ItemDoPedido;
-import exercicio1.entidades.Pedido;
-import exercicio1.entidades.Produto;
-import exercicio1.entidades.enums.StatusDoPedido;
+import exercicio.entidades.Cliente;
+import exercicio.entidades.ItemDoPedido;
+import exercicio.entidades.Pedido;
+import exercicio.entidades.Produto;
+import exercicio.entidades.enums.StatusDoPedido;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

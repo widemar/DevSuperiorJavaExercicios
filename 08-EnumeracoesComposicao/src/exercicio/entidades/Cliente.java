@@ -1,4 +1,4 @@
-package exercicio1.entidades;
+package exercicio.entidades;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

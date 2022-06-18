@@ -1,8 +1,8 @@
-package exercicio1.aplicacao;
+package exercicio.aplicacao;
 
-import exercicio1.entidades.Produto;
-import exercicio1.entidades.ProdutoImportado;
-import exercicio1.entidades.ProdutoUsado;
+import exercicio.entidades.Produto;
+import exercicio.entidades.ProdutoImportado;
+import exercicio.entidades.ProdutoUsado;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
